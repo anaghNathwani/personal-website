@@ -1,0 +1,148 @@
+/* ── Hero ── */
+.hero {
+  position: relative;
+  padding: 96px 48px 80px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+}
+
+.heroGlow {
+  position: absolute;
+  top: -120px;
+  right: -80px;
+  width: 560px;
+  height: 560px;
+  background: radial-gradient(circle at center, var(--accent-bg) 0%, transparent 65%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.greeting {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--accent);
+  margin: 0 0 8px;
+  font-family: var(--mono);
+  letter-spacing: 0.04em;
+}
+
+.name {
+  font-size: clamp(40px, 6vw, 68px);
+  font-weight: 700;
+  color: var(--text-h);
+  letter-spacing: -2px;
+  line-height: 1.05;
+  margin: 0 0 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: var(--text);
+  margin: 0 0 36px;
+  line-height: 150%;
+  max-width: 500px;
+}
+
+.ctas {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* ── Projects grid ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.allLink {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.viewAll {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  transition: gap 0.15s;
+}
+
+.viewAll:hover {
+  gap: 10px;
+}
+
+/* ── About snippet ── */
+.aboutSnippet {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 48px;
+  align-items: start;
+  text-align: left;
+}
+
+.bio {
+  font-size: 16px;
+  line-height: 170%;
+  color: var(--text);
+  white-space: pre-line;
+  margin: 0 0 24px;
+}
+
+.aboutCtas {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.quickSkills {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.skillGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.skillCategory {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.skillItems {
+  font-size: 13px;
+  color: var(--text-h);
+}
+
+@media (max-width: 900px) {
+  .aboutSnippet {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 64px 24px 56px;
+  }
+}

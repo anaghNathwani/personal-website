@@ -1,0 +1,31 @@
+.section {
+  padding: 64px 48px;
+  border-top: 1px solid var(--border);
+}
+
+.header {
+  margin-bottom: 36px;
+  text-align: left;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 6px;
+  font-family: var(--mono);
+}
+
+.subtitle {
+  font-size: 15px;
+  color: var(--text);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 48px 24px;
+  }
+}
