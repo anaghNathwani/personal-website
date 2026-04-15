@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: "Project Alpha",
+    title: "iGEM Software Team Application 2026",
     description:
       "A full-stack web app that does something impressive. Built with modern tooling and a focus on performance and developer experience.",
     tags: ["React", "Node.js", "PostgreSQL"],
@@ -12,9 +12,9 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Project Beta",
+    title: "Sudoku, the Solver",
     description:
-      "A CLI tool that automates tedious workflows. Saved hours of manual work through smart scripting and system integration.",
+      "A CLI tool that automatically solves Sudoku puzzles input as PDFs, exports answer as PDF in the same folder as the code is stored. Built with Python.",
     tags: ["Python", "Click", "Shell"],
     github: "https://github.com/anaghnathwani",
     live: null,
