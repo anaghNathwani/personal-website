@@ -4,7 +4,7 @@ export const projects = [
     title: "iGEM Software Team Application 2026",
     description:
       "A full-stack web app that does something impressive. Built with modern tooling and a focus on performance and developer experience.",
-    tags: ["React", "Node.js", "PostgreSQL"],
+    tags: ["React", "Node.js", "Firebase", "Firestore"],
     github: "https://github.com/anaghnathwani",
     live: null,
     featured: true,
@@ -15,7 +15,7 @@ export const projects = [
     title: "Sudoku, the Solver",
     description:
       "A CLI tool that automatically solves Sudoku puzzles input as PDFs, exports answer as PDF in the same folder as the code is stored. Built with Python.",
-    tags: ["Python", "Click", "Shell"],
+    tags: ["Python", "PyPDF", "Shell"],
     github: "https://github.com/anaghnathwani",
     live: null,
     featured: true,
@@ -23,9 +23,9 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Project Gamma",
+    title: "Modus",
     description:
-      "An open-source library solving a common problem in a clever way. Used by dozens of developers worldwide.",
+      "A modern adaptation of WebVM; designed to combat the modern restrictions of Virtual Machines and ChromeOS. Tested using Jest. Built with a computer. ",
     tags: ["TypeScript", "Rollup", "Jest"],
     github: "https://github.com/anaghnathwani",
     live: "https://example.com",
