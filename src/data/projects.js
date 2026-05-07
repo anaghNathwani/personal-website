@@ -21,18 +21,18 @@ export const projects = [
     featured: true,
     accentColor: "#3b82f6",
   },
-  
+
   {
     id: 3,
     title: "EasyBios, navigate your PC like a pro",
     description:
-      "A modern adaptation of WebVM; designed to combat the modern restrictions of Virtual Machines and ChromeOS. Tested using Jest. Built with a computer. ",
+      "Developed a computer hardware configuration tool that allowed users to safely view and modify BIOS settings during an active user session on their PC. The project was demonstrated in the school computer lab, where over 40 users successfully tested and used the system. Following its success, the tool was later adopted by the computer lab for educational and practical use.",
     tags: ["Python"],
     github: "https://github.com/anaghNathwani/EasyBios",
     featured: true,
     accentColor: "#10b981",
   },
- /*
+  /*
   {
     id: 4,
     title: "Project Delta",

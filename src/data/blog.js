@@ -2,10 +2,9 @@ export const activities = [
   {
     id: 1,
     emoji: "🎻",
-    title: "Private Teacher's Recital: Winter 2022",
-    description:
-      "My very first winter recital with our private teacher!",
-    tags: ["Violin", "Social"],
+    title: "Recital: Winter 2022",
+    description: "My very first winter recital with our private teacher!",
+    tags: ["Violin", "Music"],
     date: "Mar 2026",
     accentColor: "#aa3bff",
     link: "google.com",
@@ -14,9 +13,8 @@ export const activities = [
     id: 2,
     emoji: "🎻",
     title: "SDYS January Concert 2026",
-    description:
-      "SDYS Winter Concert 2025-2026 Season",
-    tags: ["Violin", "Social"],
+    description: "SDYS Winter Concert 2025-2026 Season",
+    tags: ["Violin", "Music"],
     date: "Feb 2026",
     accentColor: "#3b82f6",
     link: "https://vimeo.com/1166449098/459cfa4f89",
@@ -25,9 +23,8 @@ export const activities = [
     id: 3,
     emoji: "🎻",
     title: "SDYS Season Finale 2025",
-    description:
-      "SDYS Season Finale Concert for the 2024-2025 reason. ",
-    tags: ["Outdoor", "Sports"],
+    description: "SDYS Season Finale Concert for the 2024-2025 reason. ",
+    tags: ["Violin", "Music"],
     date: "Jan 2026",
     accentColor: "#10b981",
     link: "https://vimeo.com/1092513673/8b42d142ad?ts=0&share=copy",
@@ -36,9 +33,8 @@ export const activities = [
     id: 4,
     emoji: "🎻",
     title: "Winter Concert January 2025",
-    description:
-      "Winter Concert for the 2024-2025 Season.",
-    tags: ["Tech", "Creative"],
+    description: "Winter Concert for the 2024-2025 Season.",
+    tags: ["Violin", "Music"],
     date: "Dec 2025",
     accentColor: "#f59e0b",
     link: "https://vimeo.com/1057955747/649eac170e?share=copy",
@@ -47,9 +43,8 @@ export const activities = [
     id: 5,
     emoji: "🎻",
     title: "Season Finale May 2024",
-    description:
-      "Season Finale Concert for the 2023-2024 Season.",
-    tags: ["Violin"],
+    description: "Season Finale Concert for the 2023-2024 Season.",
+    tags: ["Violin", "Music"],
     date: "Nov 2025",
     accentColor: "#ef4444",
     link: "https://vimeo.com/969131483/dc36235fcf?share=copy",
@@ -58,9 +53,8 @@ export const activities = [
     id: 6,
     emoji: "🎻",
     title: "Winter Concert January 2024",
-    description:
-      "Winter concert for the 2023-2024 season.",
-    tags: ["Creative", "Outdoor"],
+    description: "Winter concert for the 2023-2024 season.",
+    tags: ["Violin", "Music"],
     date: "Oct 2025",
     accentColor: "#ec4899",
     link: "https://vimeo.com/916153173/a1922cc4b9",
@@ -69,9 +63,8 @@ export const activities = [
     id: 7,
     emoji: "🎻",
     title: "Season Finale 2023 Concert",
-    description:
-      "The season finale for the 2022-2023 concert. ",
-    tags: ["Gaming", "Social"],
+    description: "The season finale for the 2022-2023 concert. ",
+    tags: ["Violin", "Music"],
     date: "Sep 2025",
     accentColor: "#8b5cf6",
     link: "https://vimeo.com/838091633/fbfe0d61f5?share=copy",
@@ -80,9 +73,8 @@ export const activities = [
     id: 8,
     emoji: "🎻",
     title: "Winter Concert 2023",
-    description:
-      "Winter Concert for the 2022-2023 season.",
-    tags: ["Science", "Tech"],
+    description: "Winter Concert for the 2022-2023 season.",
+    tags: ["Violin", "Music"],
     date: "Aug 2025",
     accentColor: "#06b6d4",
     link: "https://vimeo.com/799983143/b4dd3f5ffa?turnstile=1.Hy8KoAoXrglGxYmVkciWh_0pC99xt2B2OAZUuPsobBzeAE2vWsHW8AJG2mNGqUdon3g7jYz5CkWb1swwtbNTl70yOWN0bdO30cch05s-pognmpSe7Y52lw2jHTkt-ZofGm89YPVc3Jz2Oo97JhEXdrfzzYzFPMeCQXlBBWY8VabZGM-cDk0OAhNwSpbV47FBBoSxfKM3FuYY-cCzmnYR8YSUJuNx9EzJuyKfOQkQ9GTpJSkT077Zz7tjv5Ny9ka5sGWmm5NLkb7Vat4uFmWk0buRPdOxX5Www3uI3BXl5BwKZaq17fxr2paMLQIpfBLo1VgFsDcFzmQ7EOjbrIU6WpDk2wivex9NAGHxFxprKDVn1uXWFNFbZE15oL9970zOMBptQJd0N4-5bhdG9JNKZk_B502BFOKJBOftcxDvKnMvvu4IeXekt0b65XFCbO2THttRFW3bTUEjbCG_GU0-NATGDABqY7Z2An6G7-4E8I3I8Nnvi0TDLHbkBaVZjOSW0S-FHIx2-OPbQexL9hsAJ_5mSw1KMIsyncuPiFkuUFHBps299r5e8QP3_X-ntrlGuwvD8mLzsjUBiaaG8NvNb9zHrVtSgvL6A-yPLB93C6S0c5Ix60My9ayfBicbW5Y33KFdZDFoLsKQsvwEKeg6hw.qfQIk1kO9reJmhrNAtl2_A.8537264843a53f1004f5ff5380b2017f5b6620fbb45419a65b2a82d692af6e70",
@@ -93,11 +85,12 @@ export const activities = [
     title: "Winter Concert 2022",
     description:
       "First time at an indoor climbing gym. My forearms were dead after 45 minutes but I topped a V3 problem which felt incredible. Already planning to go back — this sport is dangerously addictive.",
-    tags: ["Sports", "Outdoor"],
+    tags: ["Violin", "Music"],
     date: "Jul 2025",
     accentColor: "#f97316",
     link: "https://vimeo.com/697564390?turnstile=1.mpYtCdKebmv226kazuDz-fvO8g1Z1tzbtA4dg792ZLdATWm0MHjIap_x7GuGIKNzZZu8yD0ETmk8240hb0EKHqNeYAm5grX2zqXlZOA0f6ROn-FG-M_nrUBN0pz_4u7SAnE4SZybBS9FfO_-_DYYZlcPYUw9awFYkXzbcvsvG0S-548-dsPFg6uwksvopMaXcuESWjNPWpJSKMHV7O5CgUiwAa7YApMyK1lUJpQ1WhIcQoBp1okd4w7iyzIyulFcdpWXX-6OIo4vpnn0aiH0JddNXPuYpLACUgaAxEofyhrhxz18AeWGkU3LYHrPFqV38EZyq_SvynhjBhJ675jP2JOhUBaQ3wFA7U9eD-h7FL7jfXRlTCNdUh7zySyqXY8gha5V3qTF51O_eJEyrZw8aNEKnGR34RWmhAXmJOooCTZysteeynENJ7Zt0igPs3QaVIWGb-cknJD9LM_0UMR6gW7_jFK2gCy4d-iv2wNau3yb0UfDgDhtlNB_8KHKChr_zZZwqAlBl8CIejUxDhTJYRSe3ngDIccEg2yBrPcil1M43Jal0q3xUfn4CSttRq5FW3qJtYeHrNvnOW7b2fwDoDWmMNLyFrd2BYongB8yHqceFOA8Dv45dDm3ZZpInmz1VchvIBfLpp7ciZAVDexetw.I2rPTyd9gvSkIAPanls44Q.06eabf58173232b1d2abc80b092233440416552e58b707d6938b874ab74a9108",
   },
+  /*
   {
     id: 10,
     emoji: "🖨️",
@@ -108,7 +101,7 @@ export const activities = [
     date: "Jun 2025",
     accentColor: "#84cc16",
     link: null,
-  },
+    },
   {
     id: 11,
     emoji: "🎸",
@@ -207,7 +200,8 @@ export const activities = [
     date: "Sep 2024",
     accentColor: "#06b6d4",
     link: null,
-  },
+    }, */
+  /*
   {
     id: 20,
     emoji: "🎬",
@@ -218,5 +212,5 @@ export const activities = [
     date: "Aug 2024",
     accentColor: "#9ca3af",
     link: null,
-  },
+  },*/
 ];

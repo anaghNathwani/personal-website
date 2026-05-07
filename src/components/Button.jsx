@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Button.module.css";
 
 /**
@@ -17,16 +18,23 @@ export default function Button({
   const cls = [styles.btn, styles[variant], styles[size]].join(" ");
 
   if (href) {
+    if (external) {
+      return (
+        <a
+          href={href}
+          className={cls}
+          target="_blank"
+          rel="noopener noreferrer"
+          {...props}
+        >
+          {children}
+        </a>
+      );
+    }
     return (
-      <a
-        href={href}
-        className={cls}
-        target={external ? "_blank" : undefined}
-        rel={external ? "noopener noreferrer" : undefined}
-        {...props}
-      >
+      <Link to={href} className={cls} {...props}>
         {children}
-      </a>
+      </Link>
     );
   }
 

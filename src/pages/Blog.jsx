@@ -18,9 +18,9 @@ export default function Blog() {
     <PageLayout>
       <div className={styles.page}>
         <div className={styles.header}>
-          <h1 className={styles.title}>Blog</h1>
+          <h1 className={styles.title}>Notebook</h1>
           <p className={styles.subtitle}>
-            Things I do, try, and think about outside of code.
+            A collection of experiences, passions, and moments of discovery.
           </p>
         </div>
 
